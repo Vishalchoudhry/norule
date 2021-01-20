@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Electrolize', sans-serif;
+    
+}
+.logo{
+    display: flex;
+    background: linear-gradient(45deg,rgba(255, 255, 255, 0.411),rgba(0, 255, 234, 0.404));
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    box-shadow: 9px 9px 20px red;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+h2{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+    font-size: 1rem;
+    opacity: 0.8;
+    transition: transform 0.5s;
+   
+}
+h3{
+    color: rgb(217, 0, 255);
+    font-weight: 600;
+    font-size: 2rem;
+    opacity: 0.8;
+    text-shadow: 9px 9px 20px rgb(255, 0, 255);;
+}
+main{
+    min-height: 100vh;
+    background: radial-gradient(rgb(0, 255, 242),rgba(0, 0, 0, 0.144));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.glass{
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
+    border-radius: 4rem;
+    z-index: 4;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    box-shadow: 9px 9px 20px rgb(234, 0, 255);
+    transition:  0.5s;
+}
+.circle1{
+    background: rgb(0, 255, 191);
+    background: linear-gradient(to right bottom,rgb(123, 255, 0),rgba(255, 255, 255, 0.5));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    z-index: 1;
+    border-radius: 10rem;
+}
+.circle2{
+    background: rgb(255, 0, 0);
+    background: linear-gradient(to right bottom,rgb(255, 255, 255),rgba(255, 255, 255, 0.5));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    bottom: 35%;
+    right: 25%;
+    z-index: 1;
+    border-radius: 10rem;
+
+}
+.circle3{
+    background: rgb(0, 255, 191);
+    background: linear-gradient(to right bottom,rgb(0, 255, 221),rgba(255, 0, 0, 0.5));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    z-index: 1;
+    border-radius: 10rem;
+}
+.circle4{
+    background: rgb(255, 0, 0);
+    background: linear-gradient(to right bottom,rgb(255, 255, 255),rgba(255, 255, 255, 0.5));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    bottom: 45%;
+    right: 65%;
+    z-index: 1;
+    border-radius: 10rem;
+
+}
+.circle5{
+    background: rgb(0, 255, 191);
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.753),rgba(255, 255, 255, 0.5));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    z-index: 1;
+    border-radius: 10rem;
+}
+.circle6{
+    background: rgb(255, 0, 0);
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.883),rgba(255, 255, 255, 0.5));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    top: 5%;   
+    right: 15%;
+    z-index: 1;
+    border-radius: 10rem;
+
+}
+.dash{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: rgba(0, 255, 221, 0.13);
+    background: linear-gradient(35deg,rgba(255, 255, 255, 0.157),rgba(255, 255, 255, 0.055));
+    backdrop-filter: blur(2rem);
+    border-radius: 2rem;
+}
+.links{
+    display:flex;
+    margin: 2rem 0rem;
+    padding: 1rem 1rem;
+    align-items: center;
+}
+.links h2{
+    padding: 0rem 2rem;
+}
+.games{
+    flex: 2;
+}
+.pro{
+    background: linear-gradient(to right bottom,rgba(241, 241, 241, 0.479),rgba(143, 143, 143, 0.198));
+    border-radius: 2rem;
+    padding: 1rem;
+    transition: 0.5s;
+}
+.pro:hover{
+    transform: translateY(9px);
+}
+.status{
+    margin-bottom: 2rem;
+}
+.status input{
+    background: linear-gradient(to top bottom,rgba(240, 240, 240, 0.178),rgba(255, 255, 255, 0.493));
+    border: none;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 5rem;
+}
+.games{
+    margin: 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cards{
+    display: flex;
+    background: linear-gradient(55deg,rgba(0, 255, 255, 0.26),rgba(0, 174, 255, 0.082));
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 1rem 0rem;
+    box-shadow: 9px 9px 20px rgba(255, 0, 0, 0.486);
+    transition: transform 0.5s;
+  
+}
+.progress{
+    background: linear-gradient(55deg,rgba(0, 0, 255, 0.596),rgba(255, 0, 0, 0.356));
+    width: 100%;
+    height: 25%;
+    border-radius: 2rem;
+
+}
+.cards img{
+    border-radius: 5rem;
+    transition: transform 0.5s;
+}
+.dash .links{
+    border-radius: 2rem;
+    background: linear-gradient(45deg,rgba(255, 255, 255, 0.151),rgba(0, 0, 255, 0.246));
+    padding: 0.5rem;
+    box-shadow:9px 9px 20px rgba(255, 0, 0, 0.459);
+    transition: transform 0.5s;
+}
+.cards img:hover{
+    transform: translateY(5px);
+   
+}
+.cards img:hover{
+    transform: rotateZ(360);
+}
+h2:hover{
+    transform: translateX(5px);
+}
+.dash .links:hover{
+    transform: translateY(5px);
+}
+.cards:hover{
+    transform:translateY(9px);
+}
+.glass:hover{
+    box-shadow: -9px 9px 20px red;
+}
+.user img{
+    transition: 2s;
+}
+.user img:hover{
+    transform:rotateZ(360deg)
+    
+}
+
+
+
+
+
+
+
+
+
